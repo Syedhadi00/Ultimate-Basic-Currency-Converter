@@ -1,0 +1,105 @@
+* {
+   padding: 0;
+   margin: 0;
+
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRel--uuYkFYoThI6KO3wk4vyiRGKtfZat94-Sw8-6qww&s=10");
+}
+
+form {
+   background-image: url("https://t3.ftcdn.net/jpg/01/62/47/66/360_F_162476658_ZoIJ9RKaoch0eTLQck8yxQMEuLsPkQ19.jpg");
+   height: 500px;
+   width: 620px;
+   padding: 10px;
+   border-radius: 10px;
+   color: white;
+}
+
+.container {
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+form select,
+input,
+button {
+   width: 100%;
+   border: none;
+   outline: none;
+   border-radius: 0.50rem;
+}
+
+form input {
+   background-color: lightgray;
+}
+
+form select {
+   height: 30px;
+   width: 65px;
+   background-color: rgb(38, 33, 33);
+   color: white;
+   border-radius: 0px;
+}
+
+input {
+   border: 1px solid grey;
+   height: 35px;
+   padding-left: 5px;
+   font-size: 18px;
+}
+
+.dropdown {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.select-container img {
+
+   width: 30px;
+
+
+}
+
+i {
+   position: relative;
+   top: 23px;
+   
+}
+
+.select-container {
+   width: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+   border: 1px solid rgb(49, 46, 46);
+}
+
+.to {
+   position: relative;
+   right: 15px;
+   top: 5px;
+}
+
+button {
+   margin-top: 30px;
+   height: 50px;
+   font-size: 18px;
+   background-color: #af4d98;
+   color: white;
+   cursor: pointer;
+}
+#water{
+   margin-top: 140px;
+   text-align: left;
+   font-size: 25px;
+   color:goldenrod;
+}
