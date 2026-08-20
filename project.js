@@ -40,6 +40,6 @@ btn.addEventListener("click", async (evt) => {
 const URL = `${url}/${fromcurr.value.toLowerCase()}.json`;
     let response = await fetch(URL);
     let change = await response.json();
-let finalrate = amountval * change[fromcurr.value.toLowerCase()][tocurr.value.toLowerCase()];
-msg.innerText = `${amountval} ${fromcurr.value} = ${finalrate} ${tocurr.value}`;
+    let finalrate = amountval * change[fromcurr.value.toLowerCase()][tocurr.value.toLowerCase()];
+    msg.innerText = `${amountval} ${fromcurr.value} = ${finalrate} ${tocurr.value}`;
 });
