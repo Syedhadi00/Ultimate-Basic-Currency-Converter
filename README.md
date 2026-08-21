@@ -1,8 +1,6 @@
-# ⚠️ Important Note:
+# ⚠️ Important Notes:
 
 Currency codes: The project uses three-letter currency codes (ISO 4217), such as USD, EUR, GBP, and PKR. Some codes in the original country list may represent obsolete currencies and may not be supported by the selected API.
-
- # ⚠️ Important Note
 
 This project does **not use a live/updating API** — it uses a **fixed (static) exchange rate**. This means the rates are not fetched in real time from the internet; they are pre-set in the code. As a result, the exchange rate stays the same unless manually updated.
 
