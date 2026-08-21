@@ -61,6 +61,6 @@ git clone https://github.com/your-username/currency-converter.git
 
 # My Experience 
 
-Uff its Take Half Power Of My Brain 😫
+Its Take Half Power Of My Brain 😫
 
 But Practice Makes A Man Perfect Don't Worry 😙
